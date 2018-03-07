@@ -1,0 +1,38 @@
+.Person {
+    display: block;
+    width: 60%;
+    margin: 20px auto;
+    padding: 16px;
+    background-color: lightgray;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 3px darkgreen;
+    text-align: center;
+}
+
+.Person p {
+    margin: 0;
+}
+
+.Person .person-desc {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Person .person-desc button {
+    padding: 4px 10px;
+}
+
+.red {
+    color: red;
+}
+
+.bold {
+    font-weight: bolder;
+}
+
+@media (min-width: 500px) {
+    .Person {
+        width: 450px;
+    }
+}

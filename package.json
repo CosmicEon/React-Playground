@@ -1,16 +1,23 @@
 {
-  "name": "react-16",
+  "name": "react-complete-guide",
   "version": "0.1.0",
   "private": true,
-  "dependencies": {
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0",
-    "react-scripts": "1.1.0"
-  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "@types/prop-types": "^15.5.2",
+    "@types/radium": "^0.18.24",
+    "prop-types": "^15.6.1",
+    "radium": "^0.22.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-scripts": "1.1.1"
+  },
+  "devDependencies": {
+    "eslint-config-airbnb": "^16.1.0"
   }
 }

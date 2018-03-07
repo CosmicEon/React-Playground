@@ -1,0 +1,17 @@
+button:hover {
+    background-color: lightgreen;
+    color: black;
+}
+
+button.red:hover {
+    background-color: salmon;
+    color: black;
+}
+
+.red {
+    color: red;
+}
+
+.bold {
+    font-weight: bolder;
+}
